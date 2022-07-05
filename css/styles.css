@@ -1,0 +1,354 @@
+@import url('https://fonts.googleapis.com/css2?family=Anek+Malayalam:wght@200;400&family=Finlandica&family=Roboto:wght@300&family=Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,700&display=swap');
+
+.bloqueImg {
+    font-family: 'Anek Malayalam', sans-serif;
+    font-family: 'Finlandica', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Staatliches', cursive;
+}
+
+.izq {
+    font-family: 'Roboto Mono', monospace;
+}
+
+body {
+    margin: 0px 0px 0px 0px ;
+    background-color: black;
+}
+
+.bloqueImg {
+    width: 50%;
+    height: 722px;
+    position: relative;
+    display: grid;
+    grid-template-rows: 100px 1fr;
+    color: #fff;
+    background-size: cover;
+    float: left;
+    z-index: -1;
+    flex-direction: row;
+    margin: 0px 0px 0px 0px ;
+    background-size: 10px;
+    
+}
+
+.Fondo1{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.8;
+
+}
+.bloqueImg::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+
+}
+
+.BImg__li {
+    list-style: none;
+    margin-left: auto;
+    padding: 0;
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: max-content;
+    gap: 2em;
+}
+
+
+.nav__links {
+    color: #fff;
+    text-decoration: none;
+}
+
+.izq {
+    float: left;
+    width: 50%;
+    height: 722px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(140, 114, 145);
+}
+
+.MainMenu2 {
+    display: flex;
+    padding: 5px 40px 0px 40px;
+    background-color: rgb(0, 0, 0);
+    font-family: 'Raleway', sans-serif;
+
+}
+
+.Menu1 {
+    margin: auto;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.Menu2 {
+    color: rgb(255, 255, 255);
+    margin: auto;
+    cursor: pointer;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.Menu3 {
+    color: rgb(255, 255, 255);
+    margin: auto;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.Menu4 {
+    color: rgb(98, 98, 246);
+    margin: auto;
+    font-size: 20px;
+
+}
+
+.Menu5 {
+    color: rgb(255, 255, 255);
+    margin: auto;
+    cursor: pointer;
+    justify-content: space-between;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.Preg1{
+    margin: 0px 1px 0px 6px ;
+    text-decoration: none;
+    color: blueviolet;
+}
+
+.Preg1:hover {
+    text-decoration:underline;
+    color: blueviolet;
+}
+
+.izq__form {
+    text-align: center;
+    display:block;
+    background-color: rgb(15, 15, 15);
+    height: 320px;
+    margin: 30px 200px 0px 200px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.izq__form:hover {
+    height: 330px;
+    margin: 30px 190px 0px 200px;
+    box-shadow: 3px 4px 32px -8px rgba(144, 144, 144, 0.75);
+    transition: 0.5s;
+}
+
+.form__input{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+#nombre {
+    margin: 0px 100px 0px 100px;
+    font-family: 'Roboto Mono', monospace;
+}
+
+#pass {
+    margin: 0px 100px 0px 100px;
+    font-family: 'Roboto Mono', monospace;
+}
+
+
+
+.izq__centrado{
+    text-align: left;
+    margin: 40px 0px 0px 30px;
+}
+
+.izq__h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+}
+
+.form__submit {
+    display:block;
+    padding: 6px 26px 6px 33px;
+    margin: 20px 50px 0px 100px;
+    background-color: rgb(102, 102, 181);
+    border-radius: 310px;
+    border: none;
+    color: #fff;
+    border: #fff;
+    font-family: 'Roboto Mono', monospace;
+    cursor: pointer;
+    
+}
+
+.form__submit:hover {
+    cursor: pointer;
+    background-color: rgb(121, 121, 206);
+}
+
+.Preg1 {
+    display: block;
+    text-align: center;
+    margin: 10px 0px 0px 0px;
+}
+
+.TxtIzq {
+    padding: 20px 0px 0px 0px ;
+}
+
+
+.boton-registrate{
+    display:block;
+    padding: 6px 26px 6px 57px;
+    margin: 0px 531px 0px 0px;
+    background-color: rgb(102, 102, 181);
+    border-radius: 310px;
+    border: none;
+    color: #fff;
+    border: #fff;
+    font-family: 'Roboto Mono', monospace;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.boton-registrate:hover {
+    background-color: rgb(121, 121, 206);
+
+}
+
+
+.BImg__li{
+    font-size: 30px;
+    color: black;
+    position: relative;
+    -webkit-text-stroke: 3px black;
+    color:transparent; 
+}
+
+#InptAc{
+    color: #fff;
+
+    
+}
+
+body::-webkit-scrollbar{
+    width: 10px;
+}
+
+body::-webkit-scrollbar-thumb{
+    background: #9a5de9;
+}
+
+.login {
+    margin: 20px auto;
+    width: 300px;
+    font-family: 'Roboto Mono', monospace;
+    }
+
+    .login-screen {
+    background-color: #FFF;
+    padding: 25px;
+    border-radius: 5px
+    }
+    
+    .app-title {
+    text-align: center;
+    color: #777;
+    margin: 0px 0px 10px 0px;
+    }
+    
+    .login-form {
+    text-align: center;
+    }
+    .control-group {
+    margin-bottom: 10px;
+    }
+    
+    input {
+    text-align: center;
+    background-color: #ECF0F1;
+    border: 2px solid transparent;
+    border-radius: 3px;
+    font-size: 16px;
+    font-weight: 200;
+    padding: 10px 0;
+    width: 250px;
+    transition: border .5s;
+    }
+    
+    input:focus {
+    border: 2px solid #3498DB;
+    box-shadow: none;
+    }
+    
+    .btn {
+      border: 2px solid transparent;
+      background: #904ac9;
+      color: #ffffff;
+      font-size: 16px;
+      line-height: 25px;
+      padding: 10px 0;
+      text-decoration: none;
+      text-shadow: none;
+      border-radius: 3px;
+      box-shadow: none;
+      transition: 0.25s;
+      display: block;
+      width: 250px;
+      margin: 0 auto;
+    }
+    
+    .btn:hover {
+      background-color: #2980B9;
+    }
+    
+    .login-link {
+      font-size: 12px;
+      color: rgb(153, 0, 255);
+      display: block;
+        margin-top: 12px;
+    }
+
+    .login-link:hover {
+        text-decoration: none;
+    }
+
+    .Register {
+        margin: 10px 0px 0px 0px;
+        cursor: pointer;
+        background: #904ac9;
+        border: 2px solid transparent;
+        color: #ffffff;
+        font-size: 16px;
+        line-height: 25px;
+        padding: 10px 0;
+        text-decoration: none;
+        text-shadow: none;
+        border-radius: 3px;
+        box-shadow: none;
+        transition: 0.25s;
+        display: block;
+        width: 255px;
+    }
+
+    .Register:hover {
+        background-color: #2980B9;
+    }
